@@ -94,14 +94,7 @@ const PraetorianROICalculator: React.FC = () => {
       {/* Google Fonts - Inter (Praetorian's likely font choice) */}
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       
-      <div style={{
-        minHeight: '100vh',
-        background: 'linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%)',
-        color: 'white',
-        fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-        position: 'relative',
-        overflow: 'hidden'
-      }}>
+     <div className="praetorian-container">
         
         {/* Background Elements */}
         <div style={{

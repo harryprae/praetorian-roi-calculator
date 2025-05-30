@@ -63,3 +63,83 @@ input[type="range"]::-moz-range-thumb {
   border: none;
   box-shadow: 0 4px 8px rgba(0, 212, 255, 0.3);
 }
+
+/* Praetorian ROI Calculator Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.praetorian-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+  color: white;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: 60px 24px;
+}
+
+.praetorian-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.praetorian-title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.praetorian-subtitle {
+  font-size: 1rem;
+  color: #00D4FF;
+  margin-top: 4px;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.praetorian-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  margin-bottom: 32px;
+}
+
+.praetorian-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.praetorian-button {
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.praetorian-button-active {
+  background: linear-gradient(135deg, #00D4FF 0%, #0ea5e9 100%);
+  color: #000;
+}
+
+.praetorian-button-inactive {
+  background: rgba(255, 255, 255, 0.05);
+  color: #cbd5e1;
+}
+
+.praetorian-cta-primary {
+  background: linear-gradient(135deg, #f97316 0%, #ef4444 100%);
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
